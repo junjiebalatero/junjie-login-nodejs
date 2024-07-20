@@ -7,13 +7,13 @@ const PORT = 3000;
 
 // Dummy user for demonstration
 const user = {
-  username: 'user1',
-  password: 'password1'
+  username: 'junjie',
+  password: 'junjie'
 };
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(session({
-  secret: 'your-secret-key',
+  secret: 'junjie',
   resave: false,
   saveUninitialized: true,
 }));
